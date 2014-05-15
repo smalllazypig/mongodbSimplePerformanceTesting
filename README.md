@@ -1,9 +1,11 @@
 mongodbSimplePerformanceTesting
 ===============================
 
-mongodb simple read and write test
 
 一个mongodb的非常简单的支持调整读写线程的web小项目。
+
+项目运行需要先开启mongodb，默认28017端口，配置文件在resource目录下，关于mongodb的连接配置也可以修改这个文件。
+
 控制页面在index.jsp 
 以tomcat为例，访问页面：
 http://localhost:8080/MongodbPerformanceTestingTool/
